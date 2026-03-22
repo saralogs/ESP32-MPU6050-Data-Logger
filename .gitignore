@@ -1,0 +1,26 @@
+# ESP‑IDF build output
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# Compiled files
+*.o
+*.a
+*.elf
+*.bin
+*.map
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Mac / Linux temporary files
+.DS_Store
+*.log
+
+# Optional: if you have secrets or credentials
+# secrets.h
